@@ -1,6 +1,6 @@
 {
     "name":"react-datetimepicker-touch",
-    "description":"react datetiime picker for mobile",
+    "description":"A datetime Picker react ,only support mobile(use touch event)",
     "license": "MIT",
     "dependencies":{
         "babel-core":"^6.2.1",
