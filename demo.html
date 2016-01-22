@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>React Datetime Picker For Mobile</title>
+	<meta name="viewport" content="width=device-width, minimal-ui, initial-scale=1.0,  maximum-scale=1.0, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" type="text/css" href="css/datetime-picker.css"/>
+	<style>
+	body{
+		margin:0px auto;
+		max-width:640px;
+	}
+	body,h1,h2,h3,h4,h5,h6{font-family:arial,Microsoft YaHei,Verdana,tahoma, sans-serif;}
+	.demo-datetime{
+		padding:0px 15px;
+	}
+	.demo-datetime input{
+		border:1px solid #808080;
+		width:100%;
+		line-height:25px;
+	}
+	</style>
+</head>
+<body >
+<div id="demoPage"></div>
+<script type="text/javascript" src="js/lib/require.js"></script>
+<script type="text/javascript">
+	require.config({
+		"baseUrl":"js/",
+		"paths":{
+			"react":"lib/react-with-addons.min",
+			"react-dom":"lib/react-dom.min",
+			"jquery":"lib/jquery-2.2.0.min"
+		}
+	});
+	require(['demo']);
+
+	var _hmt = _hmt || [];
+	(function () {
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?bd44f2b1905145bca88f0b3383f27c6c";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+</body>
+</html>
